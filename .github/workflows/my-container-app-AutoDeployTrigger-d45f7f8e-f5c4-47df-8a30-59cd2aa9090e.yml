@@ -36,6 +36,7 @@ jobs:
           registryPassword: ${{ secrets.MYCONTAINERAPP_REGISTRY_PASSWORD }}
           containerAppName: my-container-app
           resourceGroup: rg-my-container-apps
+          containerName: my-container-app
           imageToBuild: jhamlacr03.azurecr.io/my-container-app:${{ github.sha }}
           
             
