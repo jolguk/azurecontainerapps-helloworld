@@ -35,7 +35,7 @@ jobs:
        
 
       - name:  Build and deploy Container Apps
-        uses: azure/container-apps-deploy-action@v1
+        uses: azure/container-apps-deploy-action@v2
         with:
           appSourcePath: ${{ github.workspace }}
           acrName: jhamlacr03
